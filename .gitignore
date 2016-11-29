@@ -1,0 +1,50 @@
+# The directory Mix will write compiled artifacts to.
+/_build
+
+# The directory with deploy artifacts.
+/deploy/transfer_sepa
+
+# If you run "mix test --cover", coverage assets end up here.
+/cover
+
+# The directory Mix downloads your dependencies sources to.
+/deps
+
+# The release directory
+/rel/json_logex
+
+# Where 3rd-party dependencies like ExDoc output generated docs.
+/doc
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# OSX stuff
+.DS_Store
+
+# IDE
+.idea
+*.iml
+.vscode
+
+# ~
+*~
+
+# Metrics
+metrics/
+
+# Beam objects
+*.beam
